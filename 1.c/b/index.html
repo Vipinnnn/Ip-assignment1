@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu-Self</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="HOME"></section>
+    <div class="navbar">
+        <ul>
+            <li class="nav-brand"><h3>Edu-Self</h3></li>
+            <li><a href="#HOME">Home</a></li>
+            <li><a href="#HTML">HTML</a></li>
+            <li><a href="#CSS">CSS</a></li>
+            <li><a href="#JS">JavaScript</a></li>
+            <li><input type="text" placeholder="Search"> <button>Search</button></li>
+
+        </ul>
+    </div>
+    <div class="heading1">
+        <h1>Welcome to Edu-Self</h1>
+        <h4>Educate Yourself</h4>
+        
+    </div>
+    <center>
+        <div class="content-container">
+            <div class="signinpage">
+                <div class="heading">Sign In/Login </div>
+                <form class="signin" method="post" onsubmit="return validate();">
+                    <input type="text" id="email" placeholder="Enter Email" class="contact-item">
+                    <br>
+                    <input type="password" id="password" placeholder="Enter Password" class="contact-item">
+                    <br>
+                    <button type="submit" class="contact-item">SUBMIT</button>
+                </form>
+                  <p id="form_note" style="text-align: center; font-size: 14px;"><strong style="color: red; font-size: 24px;" >*</strong>Password Must Be At Least 8 Digits Long And Contains One UpperCase, One LowerCase And One Special Character And one numeric value</p>
+    
+            </div>
+</center>
+
+    <script src="app.js"></script>
+</body>
+</html>
